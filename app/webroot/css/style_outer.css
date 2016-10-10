@@ -160,8 +160,9 @@ a img{border:none;}
 .textbox{
 	font-size:25px;
 	color:#636363;
-	font-family: 'Verdana';
-	border:1px solid #D4D4D4;
+	/*font-family: 'Verdana';*/
+	font-family: 'Calibri';
+    border:1px solid #D4D4D4;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;

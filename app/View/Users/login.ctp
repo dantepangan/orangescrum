@@ -71,8 +71,8 @@ input#txt_Password{font-family: Arial}
 					?>
 					<div style="padding:10px 5px;">
 						<div style="clear:both"></div>
-						<div style="float:left"><a href="https://www.orangescrum.com/how-it-works" target="_blank">How it Works?</a></div>
-						<div style="float:right;padding-right:10px;"><a href="https://www.orangescrum.com/help" target="_blank">Help!</a></div>
+						<!--div style="float:left"><a href="https://www.orangescrum.com/how-it-works" target="_blank">How it Works?</a></div-->
+						<!--div style="float:right;padding-right:10px;"><a href="https://www.orangescrum.com/help" target="_blank">Help!</a></div-->
 					</div>
 					<?php
 					}
@@ -163,7 +163,7 @@ input#txt_Password{font-family: Arial}
                                             ?>
                                             
                                             <label class="lbl_ie">Email ID</label>
-                                            <?php echo $this->Form->text('email', array('size' => '30', 'class' => 'textbox', 'placeholder' => 'Email ID', 'title' => 'Email ID', 'id' => 'email', 'style' => 'background:#fff')); ?>
+                                            <?php echo $this->Form->text('email', array('size' => '30', 'class' => 'textbox', 'placeholder' => 'Email Address ID', 'title' => 'Email ID', 'id' => 'email', 'style' => 'background:#fff')); ?>
 
                                             <label class="lbl_ie">Password</label>
                                             <?php echo $this->Form->password('password', array('size' => '30', 'class' => 'textbox', 'placeholder' => 'Password', 'title' => 'Password', 'id' => 'password')); ?>
@@ -223,12 +223,14 @@ input#txt_Password{font-family: Arial}
                                         </div>
                                     </div>
                                     <div class="cb"></div>
-                                    <div style="padding:20px 0;text-align:center">
-                                    	<a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;"><img src="<?php echo HTTP_ROOT."img/google_groups.jpg"; ?>"/></a>
-                                        <br/>
-                                    	You can ask for help, share your ideas, contribute to the community edition and also let us know your feedback using the <a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;">Orangescrum's Google Group</a>.
+                                    <?php
+                                    //<div style="padding:20px 0;text-align:center">
+                                    //	<a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;"><img src="<?php echo HTTP_ROOT."img/google_groups.jpg"; ?-->"/></a>
+                                    //    <br/>
+                                    ///	You can ask for help, share your ideas, contribute to the community edition and also let us know your feedback using the <a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;">Orangescrum's Google Group</a>.
                                         
-                                    </div>
+                                    //</div>
+                                    ?>    
                                 </div>
                             </div>
                             <div class="cb"></div>
